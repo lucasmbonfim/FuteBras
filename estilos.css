@@ -1,0 +1,43 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+    border-radius: 6px;
+    box-shadow: 6px 6px 4px lightgrey;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.sp {
+    color: red;
+}
+.cor {
+    color: black;
+}
+.san {
+    color: black;
+
+}
+.pal {
+    color: green;
+}
+.bra {
+    color: black;
+}
+
+footer {
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 6px;
+    box-shadow: 6px 6px 4px lightgrey;
+    text-align: center;
+}
