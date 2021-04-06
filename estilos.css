@@ -13,6 +13,11 @@ header {
     width: auto;
     height: auto;
 }
+.container {
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
 ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -32,6 +37,13 @@ ul {
 }
 .bra {
     color: black;
+}
+.pagtimes {
+    color: black;
+    font-family: Arial Black, sans-serif;
+    border: solid 3px black;
+    border-radius: 4px;
+    text-align: center; 
 }
 
 footer {
