@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<!-- - Criar, usando HTML e CSS, um site para um tema qualquer à escolha (EXCETO LOJA
-VIRTUAL OU EMPRESA)
-- Crie pelo menos cinco páginas, sendo uma index.html, com barra de navegação
-contendo links para as mesmas.
-- Deverá conter imagens (duas por página, pelo menos)
-- Usar em todas as páginas tags estruturais do HTML 5 (header, nav, main, section, div,
-footer)
-- Em uma das páginas, incluir um formulário com pelo menos cinco campos diferentes.
-- Em uma das páginas utilizar uma tabela HTML
-- Crie estilos CSS para os elementos HTML usados em um arquivo externo de estilos
-- Será avaliado o uso correto das tags e atributos CSS, além da criatividade e utilização
-de propriedades CSS mostradas em aula. -->
+	<!-- Lucas Moraes Bonfim e João Vitor e Silva -->
     <head>
         <meta charset="utf-8">
         <title>Futebras</title>
@@ -20,50 +9,130 @@ de propriedades CSS mostradas em aula. -->
     <body>
         <header>
         <h1>Informações + atuais dos times de futebol brasileiro!</h1>
-		<div class="container">
-			<img src="img/futebol.png" width="320" height="205" />
-		</div>
         </header>
-		<nav>
-
-		</nav>
         <main>
+            <h2 class="formulario">Para ficar por dentro das novidades, preencha o formulário abaixo:</h2>
+            <form action="formulario.php" class="formulario">
+            <div>
+                <label for="nome">Seu nome:</label>
+                <input type="text" name="nome" id="nome"
+                size="35" maxlength="35" required placeholder="Digite seu nome">
+            </div>
+            <div>
+                <label for ="email">Seu e-mail:</label>  
+                <input type="email" name="email" id="email"
+                size="35" maxlength="35" required placeholder="Digite seu e-mail">
+            
+            </form>
+            <br>
+            <button type="submit" class="formulario">Enviar</button>
+            <button type="clear" class="formulario">Limpar</button>
+            </div>
             <ul>
                 <li>
                 	<span class="sp">São Paulo</span>
 					<div class="container">
-					<img src="img/logosp.png">
-                    <a href="/pweb/saopaulo.html" target="_blank">Clique aqui para saber mais sobre o time</a>
+					<img src="img/logosp.png" alt="Escudo São Paulo">
+                    <a href="C:/pweb/Atividades/atv02-2021-04-05/saopaulo.html" target="_blank">Clique aqui para saber mais sobre o time</a>
                     </div>
                     <br>
                 </li>
                 <li>
                     <span class="cor">Corinthians</span>
 					<div class="container">
-					<img src="img/logocor.png">Clique aqui ou na imagem para saber mais sobre o time</div>
+					<img src="img/logocor.png" alt="Escudo Corinthians">
+                    <a href="C:/pweb/Atividades/atv02-2021-04-05/corinthians.html" target="_blank">Clique aqui para saber mais sobre o time</a>
+                    </div>
                     <br>
                 </li>
                 <li>
                     <span class="san">Santos</span><br>
 					<div class="container">
-					<img src="img/logosan.png">Clique aqui ou na imagem para saber mais sobre o time</div>
+					<img src="img/logosan.png" alt="Escudo Santos">
+                    <a href="C:/pweb/Atividades/atv02-2021-04-05/santos.html" target="_blank">Clique aqui para saber mais sobre o time</a>
+                    </div>
                     <br>
                 </li>
                 <li>
                     <span class="pal">Palmeiras</span><br>
 					<div class="container">
-					<img src="img/logopal.png">Clique aqui ou na imagem para saber mais sobre o time</div>
-                    <br>
-                </li>
-                <li>
-                    <span class="bra">Bragantino</span><br>
-					<div class="container">
-					<img src="img/logobra.png">Clique aqui ou na imagem para saber mais sobre o time</div>
+					<img src="img/logopal.png" alt="Escudo Palmeiras">
+                    <a href="C:/pweb/Atividades/atv02-2021-04-05/palmeiras.html" target="_blank">Clique aqui para saber mais sobre o time</a>
+                    </div>
                     <br>
                 </li>
             </ul>
+            <br>
+            <div class="tabela">
+            <h2>Tabela de classificação</h2>
+            <table border="1">
+                <tr>
+                     <th>Time</th>
+                     <th>Qtd. de titulos</th>
+                </tr>
+                <tr>
+                     <td>São Paulo</td>
+                     <td>12 títulos</td>
+                </tr>
+                <tr>
+                     <td>Santos</td>
+                     <td>8 títulos</td>
+                </tr>
+                <tr>
+                    <td>Palmeiras</td>
+                    <td>4 títulos</td>
+                </tr>
+                <tr>
+                    <td>Corinthians</td>
+                    <td>4 títulos</td>
+                </tr>
+                </table>
+                <h4>Referência da tabela: Titulos internacionais oficiais</h4>
+                <div>
+                    <h5>São Paulo</h5>
+                    <span>Mundial de Clubes Fifa (2005), Copa Intercontinental (1992,1993), 
+                    Copa Libertadores da América (1992, 1993, 2005), Copa Sul-Americana (2012), Supercopa Libertadores (1993), 
+                    Copa Conmbeol (1994), Recopa Sul-Americana (1993,1994), Copa Master da Conmebol (1996).</span>
+                </div>
+                <br>
+                <div>
+                    <h5>Santos</h5>
+                    <span>Copa Intercontinental (1962, 1963), Recopa Intercontinental (1968), 
+                    Copa Libertadores da América (1962, 1963, 2011), Copa Conmebol (1998), Recopa Sul-Americana (2012).</span>
+                </div>
+                <br>
+                <div>
+                    <h5>Palmeiras</h5>
+                    <span>Os títulos internacionais mais importantes conquistados no futebol pelo clube são as 
+                    Copas Libertadores da América de 1999 e 2020, a Copa Mercosul de 1998 e a Copa Rio de 1951, 
+                    considerada na época de sua disputa como um Mundial de Clubes de futebol e reconhecido como tal pela FIFA.</span>
+                </div>
+                <br>
+                <div>
+                    <h5>Corinthians</h5>
+                    <span>Mundial de Clubes Fifa (2000, 2012), Copa Libertadores da América (2012), Recopa Sul-Americana (2013).</span>
+                </div>
+                <br>
+                </div>
         </main>
+        <br><br>
         <footer>
+            <div class="container">
+                <img src="img/futebol.png" alt="Logo Futebras" width="320" height="205" />
+            </div>
+            <br>
+            <div id="copyright">
+                &copy; 2021 Futebras - Todos os direitos reservados.
+            </div>
+            <br>
+            <address>Av. Presidente Vargas, 2331. Garça-SP, 17400-000</address>
+            <div id="links_redes_sociais">
+                <ul class="limenor">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Linkedin</li>
+                </ul>
+            </div>
             <div id="" class="footer">Fique sempre por dentro de todas as novidades!</div>
             <div id="" class="footer">Blog atualizado diariamente</div>
         </footer>
